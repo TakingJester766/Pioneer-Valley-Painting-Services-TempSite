@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-  max-width: 20%;
+  max-width: 10%;
   margin: 0 auto;
 }
 
@@ -17,13 +17,52 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 .title {
   margin-top: 20px;
-  font-size: 24px;
+  font-size: 40px;
   text-transform: uppercase;
   color: #b8abab;
   text-align: center;
+}
+
+.subtext {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #b8abab;
+  text-align: center;
+}
+
+/* icons class must have all elements inside (currently fb and gmail) center horizontally*/
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*fb and gmail must have some separation between them*/
+#fb {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #3b5998;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gmail {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #d34836;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
